@@ -20,7 +20,7 @@ country.onload = function(){
     var res1 = result1.forEach((a) => console.log(`Name : ${a.name.common} , Capital : ${a.capital}, Flag : ${a.flag}`))
 
 
-    // d. 
+    // d. Print the total population of countries using reduce function
     var res4 = result1.reduce((great , val) => great+val.population , 0)
     console.log(res4)
    
