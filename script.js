@@ -19,6 +19,10 @@ country.onload = function(){
     // c. Print the following details name, capital, flag, using forEach function
     var res1 = result1.forEach((a) => console.log(`Name : ${a.name.common} , Capital : ${a.capital}, Flag : ${a.flag}`))
 
+
+    // d. 
+    var res4 = result1.reduce((great , val) => great+val.population , 0)
+    console.log(res4)
    
 
 
